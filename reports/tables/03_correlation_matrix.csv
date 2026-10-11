@@ -1,0 +1,8 @@
+,step,amount,oldbalanceOrg,newbalanceOrig,oldbalanceDest,newbalanceDest,isFraud
+step,1.0,0.022,-0.01,-0.01,0.028,0.026,0.032
+amount,0.022,1.0,-0.003,-0.008,0.294,0.459,0.077
+oldbalanceOrg,-0.01,-0.003,1.0,0.999,0.066,0.042,0.01
+newbalanceOrig,-0.01,-0.008,0.999,1.0,0.068,0.042,-0.008
+oldbalanceDest,0.028,0.294,0.066,0.068,1.0,0.977,-0.006
+newbalanceDest,0.026,0.459,0.042,0.042,0.977,1.0,0.001
+isFraud,0.032,0.077,0.01,-0.008,-0.006,0.001,1.0

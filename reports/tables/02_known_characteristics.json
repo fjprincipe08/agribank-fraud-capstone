@@ -1,0 +1,17 @@
+{
+  "fraud_types": [
+    "CASH_OUT",
+    "TRANSFER"
+  ],
+  "share_fraud_emptying_sender": 0.9782052843053696,
+  "share_fraud_dest_zero_before_after": 0.49628637525873615,
+  "share_legit_dest_zero_before_after": 0.36403176567065976,
+  "sender_accounts_unique_share": 0.9985362947967975,
+  "merchant_dest_share": 0.3381460781879163,
+  "flagged_count": 16,
+  "flagged_min_amount": 353874.22,
+  "flagged_types": [
+    "TRANSFER"
+  ],
+  "max_step": 743
+}

@@ -1,0 +1,31 @@
+,step,type,amount,isFraud,risk_score,priority,reasons
+2668208,534,TRANSFER,1390332.39,1,100,High,Sender account emptied; Sender balance does not reconcile; Receiving balance does not reconcile
+2765216,702,TRANSFER,308778.37,1,100,High,Sender account emptied; Sender balance does not reconcile; Receiving balance stays at zero
+2688584,552,CASH_OUT,45116.24,1,100,High,Sender account emptied; Sender balance does not reconcile; Time of day
+2428501,390,TRANSFER,638693.49,1,100,High,Sender account emptied; Sender balance does not reconcile; Receiving balance does not reconcile
+2628234,460,CASH_OUT,414095.91,1,100,High,Sender account emptied; Sender balance does not reconcile; Amount large relative to receiving balance
+2702956,585,CASH_OUT,470325.08,1,100,High,Sender account emptied; Sender balance does not reconcile; Amount large relative to receiving balance
+2765108,698,TRANSFER,2360965.74,1,100,High,Sender account emptied; Sender balance does not reconcile; Receiving balance does not reconcile
+2668294,537,CASH_OUT,1504.73,1,100,High,Sender account emptied; Sender balance does not reconcile; Sender balance after transfer
+2743977,682,CASH_OUT,368951.94,1,100,High,Sender account emptied; Sender balance does not reconcile; Sender balance after transfer
+2614909,408,TRANSFER,429257.45,1,100,High,Sender account emptied; Sender balance does not reconcile; Receiving balance does not reconcile
+2646680,512,CASH_OUT,718350.64,1,100,High,Sender account emptied; Sender balance does not reconcile; Amount large relative to receiving balance
+2770348,738,TRANSFER,108240.74,1,100,High,Sender account emptied; Sender balance does not reconcile; Receiving balance stays at zero
+2645789,501,TRANSFER,534470.98,1,100,High,Sender account emptied; Sender balance does not reconcile; Receiving balance does not reconcile
+2628742,467,TRANSFER,171623.1,1,100,High,Sender account emptied; Sender balance does not reconcile; Receiving balance stays at zero
+2427299,384,CASH_OUT,56517.37,1,100,High,Sender account emptied; Sender balance does not reconcile; Time of day
+2668164,533,TRANSFER,3439121.37,1,100,High,Sender account emptied; Sender balance does not reconcile; Receiving balance does not reconcile
+2618509,422,CASH_OUT,2897907.81,1,100,High,Sender account emptied; Sender balance does not reconcile; Amount well above usual for this type
+2421718,382,CASH_OUT,1595587.46,1,100,High,Sender account emptied; Sender balance does not reconcile; Amount large relative to sender balance
+2736843,658,CASH_OUT,120582.86,1,100,High,Sender account emptied; Sender balance does not reconcile; Amount large relative to sender balance
+2770384,741,CASH_OUT,10000000.0,1,100,High,Sender account emptied; Sender balance does not reconcile; Sender balance level
+2768336,713,CASH_OUT,4130371.73,1,100,High,Sender account emptied; Sender balance does not reconcile; Sender balance level
+2732472,636,TRANSFER,654250.76,1,100,High,Sender account emptied; Sender balance does not reconcile; Receiving balance does not reconcile
+2627942,455,TRANSFER,542222.77,1,100,High,Sender account emptied; Sender balance does not reconcile; Receiving balance does not reconcile
+2729037,613,CASH_OUT,51589.87,1,100,High,Sender account emptied; Sender balance does not reconcile; Sender balance after transfer
+2697494,570,CASH_OUT,9274.56,1,100,High,Sender account emptied; Sender balance does not reconcile; Sender balance after transfer
+2615973,412,TRANSFER,2425164.58,1,100,High,Sender account emptied; Sender balance does not reconcile; Receiving balance does not reconcile
+2741700,671,CASH_OUT,188731.21,1,100,High,Sender account emptied; Sender balance does not reconcile; Amount large relative to sender balance
+2652477,520,TRANSFER,1459180.14,1,100,High,Sender account emptied; Sender balance does not reconcile; Receiving balance does not reconcile
+2627962,455,CASH_OUT,2108589.59,1,100,High,Sender account emptied; Sender balance does not reconcile; Amount large relative to receiving balance
+2668523,538,CASH_OUT,202968.27,1,100,High,Sender account emptied; Sender balance does not reconcile; Amount large relative to sender balance

@@ -1,0 +1,3 @@
+,val_pr_auc
+LR without PCA,0.9998555367401064
+LR with PCA,0.9891323366272065

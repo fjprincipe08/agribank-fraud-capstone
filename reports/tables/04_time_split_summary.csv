@@ -1,0 +1,4 @@
+,steps,rows,fraud,fraud_rate_pct
+train,1 to 322,1938484,3633,0.1874
+validation,323 to 376,415628,560,0.1347
+test,377 to 743,416297,4020,0.9657

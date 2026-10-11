@@ -1,0 +1,5 @@
+,train_pr_auc,val_pr_auc,gap
+LogisticRegression,0.992,1.0,-0.008
+DecisionTree,0.9962,0.9982,-0.002
+RandomForest,1.0,1.0,0.0
+XGBoost,1.0,1.0,0.0

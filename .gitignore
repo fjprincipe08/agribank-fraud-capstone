@@ -13,14 +13,13 @@ config.local.*
 # Jupyter
 .ipynb_checkpoints/
 
-# Data and models (keep real data out of Git)
+# Raw and processed data (download PaySim from Kaggle, see data/README.md)
 data/raw/
 data/processed/
-*.csv
 *.parquet
 *.pkl
-*.joblib
 
 # OS / editor
 .DS_Store
 .vscode/
+~$*

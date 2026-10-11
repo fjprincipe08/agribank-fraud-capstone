@@ -1,0 +1,4 @@
+risk_level,transactions,fraud,fraud_rate_pct
+Low,413036,1074,0.26
+Medium,335,128,38.209
+High,2926,2818,96.309

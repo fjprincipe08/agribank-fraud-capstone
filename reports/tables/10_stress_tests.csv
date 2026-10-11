@@ -1,0 +1,7 @@
+model,pr_auc,roc_auc,precision,recall,f1,accuracy,false_positive_rate,precision_at_k,recall_at_k,brier,tp,fp,fn,tn,alerts,fraud_value_detected,fraud_value_missed,description,n_features
+E1 A_full,1.0,1.0,0.9995,0.9998,0.9996,1.0,0.0,1.0,0.199,0.0,4019,2,1,412275,4021,6331098621.28,399045.08,Full PaySim features (headline),21
+E2 A_no_recon,0.9994,1.0,0.9812,0.999,0.99,0.9998,0.0002,1.0,0.199,0.0002,4016,77,4,412200,4093,6331015016.18,482650.18,Without balance reconciliation features,17
+E3 B_interbank,0.9998,1.0,0.9963,0.9998,0.998,1.0,0.0,1.0,0.199,0.0,4019,15,1,412262,4034,6331098621.28,399045.08,Without receiving balances (interbank view),16
+E4 A_full random split,0.9967,0.9997,0.9895,0.9935,0.9915,0.9999,0.0,0.7916,0.9927,0.0,1224,13,8,414317,1237,1995972198.97,4339257.23,"Full features, random split instead of time split",21
+E5 A_strict,0.7945,0.9418,0.4633,0.7968,0.5859,0.9891,0.009,0.99,0.197,0.0124,3203,3711,817,408566,6914,6152785884.59,178711781.77,Without reconciliation or sender balance fields,14
+E6 T_transaction_only,0.5568,0.9264,0.1862,0.7808,0.3007,0.9649,0.0333,0.9462,0.1883,0.0321,3139,13717,881,398560,16856,6113701403.56,217796262.8,"Transaction details only, no balance fields (realistic view)",11

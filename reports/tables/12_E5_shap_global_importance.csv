@@ -1,0 +1,15 @@
+,mean_abs_shap
+newbalanceDest,0.9721708
+amt_to_dest_bal,0.9355948
+hour,0.8003547
+type_TRANSFER,0.775675
+amt_vs_type_median,0.7196401
+log_amount,0.6302184
+oldbalanceDest,0.5357732
+dest_prior_count,0.487904
+log_dest_prior_amount,0.40216985
+period_night,0.08592428
+dest_is_new,0.07710617
+period_afternoon,0.051329847
+period_morning,0.038146175
+high_value,0.0129849175

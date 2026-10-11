@@ -1,0 +1,285 @@
+{
+  "technical_deck": {
+    "selected_model": "XGBoost",
+    "realistic_model_setD": "XGBoost",
+    "setD_comparison": {
+      "LogisticRegression": {
+        "val_pr_auc": 0.0792,
+        "pr_auc": 0.2694,
+        "ci_low": 0.2564,
+        "ci_high": 0.2844,
+        "roc_auc": 0.8688,
+        "precision_at_150": 0.525,
+        "recall_at_150": 0.3134,
+        "recall_05": 0.7759,
+        "precision_05": 0.0431
+      },
+      "DecisionTree": {
+        "val_pr_auc": 0.3421,
+        "pr_auc": 0.526,
+        "ci_low": 0.5092,
+        "ci_high": 0.5407,
+        "roc_auc": 0.9328,
+        "precision_at_150": 0.7267,
+        "recall_at_150": 0.4338,
+        "recall_05": 0.8346,
+        "precision_05": 0.1386
+      },
+      "RandomForest": {
+        "val_pr_auc": 0.3172,
+        "pr_auc": 0.5562,
+        "ci_low": 0.5385,
+        "ci_high": 0.57,
+        "roc_auc": 0.9416,
+        "precision_at_150": 0.735,
+        "recall_at_150": 0.4388,
+        "recall_05": 0.8224,
+        "precision_05": 0.1772
+      },
+      "XGBoost": {
+        "val_pr_auc": 0.3696,
+        "pr_auc": 0.5777,
+        "ci_low": 0.5621,
+        "ci_high": 0.5938,
+        "roc_auc": 0.9422,
+        "precision_at_150": 0.7588,
+        "recall_at_150": 0.453,
+        "recall_05": 0.8423,
+        "precision_05": 0.1334
+      }
+    },
+    "mitigation_M1": {
+      "base": {
+        "pr_auc": 0.5359,
+        "recall_at_150": 0.448,
+        "precision_at_150": 0.7504,
+        "time_alert_gap": 0.1767,
+        "time_fpr_gap": 0.0542,
+        "time_tpr_gap": 0.6281
+      },
+      "new": {
+        "pr_auc": 0.419,
+        "recall_at_150": 0.3776,
+        "precision_at_150": 0.6325,
+        "time_alert_gap": 0.0602,
+        "time_fpr_gap": 0.0032,
+        "time_tpr_gap": 0.0572
+      }
+    },
+    "tied_models_on_validation": [
+      "LogisticRegression",
+      "DecisionTree",
+      "RandomForest",
+      "XGBoost"
+    ],
+    "test_pr_auc_by_model": {
+      "Rule benchmark (isFlaggedFraud)": 0.0129,
+      "LogisticRegression": 0.9985,
+      "DecisionTree": 0.9995,
+      "RandomForest": 1.0,
+      "XGBoost": 1.0
+    },
+    "stress_tests_pr_auc": {
+      "E1 A_full": 1.0,
+      "E2 A_no_recon": 0.9994,
+      "E3 B_interbank": 0.9998,
+      "E4 A_full random split": 0.9967,
+      "E5 A_strict": 0.7945,
+      "E6 T_transaction_only": 0.5568
+    },
+    "top_features_E1": {
+      "orig_emptied": 4.880199909210205,
+      "errorBalanceOrig": 2.86929988861084,
+      "amt_to_orig_bal": 1.3163000345230103,
+      "amt_to_dest_bal": 1.0302000045776367,
+      "amt_vs_type_median": 0.6628000140190125
+    },
+    "top_features_E2": {
+      "amt_to_orig_bal": 6.561500072479248,
+      "oldbalanceOrg": 1.6256999969482422,
+      "log_amount": 0.9503999948501587,
+      "amt_to_dest_bal": 0.8014000058174133,
+      "amt_vs_type_median": 0.7858999967575073
+    },
+    "top_features_E5": {
+      "newbalanceDest": 0.9721999764442444,
+      "amt_to_dest_bal": 0.9355999827384949,
+      "hour": 0.8004000186920166,
+      "type_TRANSFER": 0.7756999731063843,
+      "amt_vs_type_median": 0.7196000218391418
+    },
+    "top_features_E6": {
+      "hour": 0.784500002861023,
+      "amt_vs_type_median": 0.6496000289916992,
+      "log_dest_prior_amount": 0.5612000226974487,
+      "dest_prior_count": 0.5224999785423279,
+      "type_TRANSFER": 0.3962000012397766
+    },
+    "figures": [
+      "03_amount_distribution.png",
+      "03_correlation_matrix.png",
+      "03_daily_volume.png",
+      "03_fraud_by_hour.png",
+      "03_transactions_by_type.png",
+      "06_pca_2d.png",
+      "06_pca_explained_variance.png",
+      "09_pr_and_roc_curves.png",
+      "10b_E6_pr_curves.png",
+      "11_E1_calibration_chart.png",
+      "11_E1_threshold_tradeoff.png",
+      "11_E2_calibration_chart.png",
+      "11_E2_threshold_tradeoff.png",
+      "11_E5_calibration_chart.png",
+      "11_E5_threshold_tradeoff.png",
+      "11_E6_calibration_chart.png",
+      "11_E6_threshold_tradeoff.png",
+      "12_E1_shap_dependence_amt_to_orig_bal.png",
+      "12_E1_shap_dependence_errorBalanceOrig.png",
+      "12_E1_shap_dependence_orig_emptied.png",
+      "12_E1_shap_importance_bar.png",
+      "12_E1_shap_summary.png",
+      "12_E2_shap_dependence_amt_to_orig_bal.png",
+      "12_E2_shap_dependence_log_amount.png",
+      "12_E2_shap_dependence_oldbalanceOrg.png",
+      "12_E2_shap_importance_bar.png",
+      "12_E2_shap_summary.png",
+      "12_E5_shap_dependence_amt_to_dest_bal.png",
+      "12_E5_shap_dependence_hour.png",
+      "12_E5_shap_dependence_newbalanceDest.png",
+      "12_E5_shap_importance_bar.png",
+      "12_E5_shap_summary.png",
+      "12_E6_shap_dependence_amt_vs_type_median.png",
+      "12_E6_shap_dependence_hour.png",
+      "12_E6_shap_dependence_log_dest_prior_amount.png",
+      "12_E6_shap_importance_bar.png",
+      "12_E6_shap_summary.png"
+    ]
+  },
+  "business_deck": {
+    "fraud_value_in_test": 6331497666.36,
+    "rule_benchmark": {
+      "alerts": 13,
+      "fraud_caught": 13,
+      "fraud_value_detected": 70952044.11999999
+    },
+    "headline_view_E1": {
+      "threshold": 0.01,
+      "pr_auc": 0.9993,
+      "recall": 0.9993,
+      "precision": 1.0,
+      "alerts": 4017,
+      "false_alerts": 0,
+      "fraud_value_detected": 6314197325.860001,
+      "capacity": {
+        "50": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.199,
+          "total_alerts": 800,
+          "fraud_value_share": 0.1951
+        },
+        "150": {
+          "precision_at_k": 0.9667,
+          "recall_at_k": 0.5771,
+          "total_alerts": 2400,
+          "fraud_value_share": 0.5694
+        },
+        "300": {
+          "precision_at_k": 0.8369,
+          "recall_at_k": 0.9955,
+          "total_alerts": 4782,
+          "fraud_value_share": 0.9963
+        }
+      }
+    },
+    "no_recon_view_E2": {
+      "threshold": 0.1,
+      "pr_auc": 0.9975,
+      "recall": 0.9985,
+      "precision": 0.9821,
+      "alerts": 4087,
+      "false_alerts": 73,
+      "fraud_value_detected": 6330918843.02,
+      "capacity": {
+        "50": {
+          "precision_at_k": 0.9988,
+          "recall_at_k": 0.1988,
+          "total_alerts": 800,
+          "fraud_value_share": 0.2036
+        },
+        "150": {
+          "precision_at_k": 0.9662,
+          "recall_at_k": 0.5769,
+          "total_alerts": 2400,
+          "fraud_value_share": 0.5709
+        },
+        "300": {
+          "precision_at_k": 0.8352,
+          "recall_at_k": 0.9935,
+          "total_alerts": 4782,
+          "fraud_value_share": 0.9966
+        }
+      }
+    },
+    "no_sender_balance_view_E5": {
+      "threshold": 0.01,
+      "pr_auc": 0.7735,
+      "recall": 0.7766,
+      "precision": 0.686,
+      "alerts": 4551,
+      "false_alerts": 1429,
+      "fraud_value_detected": 6125038685.440001,
+      "capacity": {
+        "50": {
+          "precision_at_k": 0.9588,
+          "recall_at_k": 0.1908,
+          "total_alerts": 800,
+          "fraud_value_share": 0.2321
+        },
+        "150": {
+          "precision_at_k": 0.9346,
+          "recall_at_k": 0.558,
+          "total_alerts": 2400,
+          "fraud_value_share": 0.71
+        },
+        "300": {
+          "precision_at_k": 0.6734,
+          "recall_at_k": 0.801,
+          "total_alerts": 4782,
+          "fraud_value_share": 0.9699
+        }
+      }
+    },
+    "realistic_view_E6": {
+      "threshold": 0.01,
+      "pr_auc": 0.5359,
+      "recall": 0.7958,
+      "precision": 0.2138,
+      "alerts": 14960,
+      "false_alerts": 11761,
+      "fraud_value_detected": 6148690095.440001,
+      "capacity": {
+        "50": {
+          "precision_at_k": 0.91,
+          "recall_at_k": 0.1811,
+          "total_alerts": 800,
+          "fraud_value_share": 0.3827
+        },
+        "150": {
+          "precision_at_k": 0.7504,
+          "recall_at_k": 0.448,
+          "total_alerts": 2400,
+          "fraud_value_share": 0.7794
+        },
+        "300": {
+          "precision_at_k": 0.5282,
+          "recall_at_k": 0.6284,
+          "total_alerts": 4782,
+          "fraud_value_share": 0.904
+        }
+      }
+    },
+    "fraud_cases_per_day_in_test": 262.9,
+    "operating_rule": "Top 150 scores per day (capacity-based)",
+    "note": "Simulated data, assumed costs and assumed capacity. Not an estimate of Agribank results."
+  }
+}

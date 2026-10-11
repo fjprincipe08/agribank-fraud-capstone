@@ -1,0 +1,4 @@
+alerts_per_day,precision_at_k,recall_at_k,total_alerts,fraud_value_share
+50,1.0,0.199,800,0.1951
+150,0.9667,0.5771,2400,0.5694
+300,0.8369,0.9955,4782,0.9963

@@ -1,0 +1,12 @@
+,mean_abs_shap
+hour,0.78451604
+amt_vs_type_median,0.6496449
+log_dest_prior_amount,0.56119144
+dest_prior_count,0.5224653
+type_TRANSFER,0.396242
+log_amount,0.1885455
+dest_is_new,0.15891828
+period_night,0.012086178
+period_afternoon,0.009075263
+high_value,0.006118376
+period_morning,0.0036462487

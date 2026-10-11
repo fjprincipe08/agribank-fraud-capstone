@@ -1,0 +1,25 @@
+claim,holds
+PART VII: no feature weak on all three measures,True
+PART VII: sender account emptied ranks first by mutual information,True
+PART VII: PCA did not improve Logistic Regression,True
+PART VIII: all four Set A models tied within the tolerance,True
+PART VIII: Set A train/validation gap at most 0.01,True
+PART VIII: E2 within 0.01 of E1 (reconciliation removal barely matters),True
+PART VIII: E3 within 0.01 of E1 (receiving balances barely matter),True
+PART VIII: E5 clearly below E2,True
+PART VIII: E6 shared settings below E5,True
+PART VIII: E4 random split below E1,True
+PART VIII: tuned E6 model at least 10x the rule benchmark,True
+PART IX: cost measure on validation favours the lowest threshold,True
+PART IX: E6 scores understate risk in the test period,True
+PART X: E1 relies on the account-emptying pattern (top SHAP feature),True
+PART XI: night has the highest false positive rate by time of day,True
+PART V: every money field is right-skewed (mean above median),True
+PART V: amount outliers have a higher fraud rate than overall,True
+PART VI: fraud rate at night is higher than the rest of the day,True
+PART VI: legitimate daily volume is lower in the second half of the month,True
+PART VI: no raw field has |correlation| above 0.3 with isFraud,True
+PART VI: sender balances before/after correlate above 0.9,True
+PART VIII: XGBoost tuned faster than Random Forest on Set A,True
+PART X: E2 top SHAP feature is a sender balance field,True
+PART X: E5 top SHAP feature is the receiving balance after the transfer,True

@@ -1,0 +1,11 @@
+limitation,evidence_from_this_run
+Class imbalance,"Fraud share: train 0.187%, test 0.966%"
+Overstated performance,"PR-AUC E1 1.000, E2 0.999, E5 0.795, E6 shared settings 0.557, E6 tuned (XGBoost) 0.578"
+Interbank data gap,E3 PR-AUC 1.000 vs E1 1.000
+Split method effect,E4 PR-AUC 0.997 vs E1 1.000
+Overfitting,Largest train/val gap 0.008 (LogisticRegression)
+Review capacity,"About 263 fraud cases per test day vs capacity options [50, 150, 300]"
+Leakage,isFlaggedFraud used as benchmark only; post-transaction balances documented
+Time coverage,743 hourly steps (about one month)
+Calibration drift,"Fraud rate: validation 0.13%, test 0.97%"
+Fairness mitigation,"Removing the time features narrowed the false alert gap by time of day, but PR-AUC fell by 0.117. The trade-off between fairness and fraud caught is a business decision."

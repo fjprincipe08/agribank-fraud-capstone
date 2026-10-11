@@ -1,0 +1,31 @@
+,step,type,amount,isFraud,risk_score,priority,reasons
+2688702,554,CASH_OUT,10000000.0,1,100,High,Amount well above usual for this type; Time of day; Transaction type
+2727086,606,CASH_OUT,1026684.46,1,100,High,Time of day; Amount well above usual for this type; Transaction type
+2702581,578,TRANSFER,4961014.03,1,100,High,Time of day; Amount well above usual for this type; Amount previously received by account
+2702794,583,CASH_OUT,1764389.11,1,100,High,Amount well above usual for this type; Time of day; Transaction type
+2428468,387,CASH_OUT,10000000.0,1,100,High,Amount well above usual for this type; Time of day; Large amount
+2726846,600,CASH_OUT,7363709.23,1,100,High,Amount well above usual for this type; Transaction type; Time of day
+2765200,701,TRANSFER,1947831.96,1,100,High,Time of day; Amount previously received by account; Receiving account history
+2726847,600,TRANSFER,7363709.23,1,100,High,Amount well above usual for this type; Time of day; Amount previously received by account
+2428431,386,TRANSFER,6063657.03,1,100,High,Time of day; Amount well above usual for this type; Amount previously received by account
+2702793,583,TRANSFER,1583.28,1,100,High,Time of day; Amount well above usual for this type; Amount previously received by account
+2623939,436,CASH_OUT,1532229.72,1,100,High,Amount well above usual for this type; Time of day; Transaction type
+2727048,603,TRANSFER,4099382.36,1,100,High,Time of day; Amount well above usual for this type; Amount previously received by account
+2428464,387,CASH_OUT,10000000.0,1,100,High,Amount well above usual for this type; Time of day; Transaction type
+2741738,672,CASH_OUT,7218629.01,1,100,High,Amount well above usual for this type; Time of day; Large amount
+2727085,606,TRANSFER,6575903.12,1,100,High,Time of day; Amount well above usual for this type; Amount previously received by account
+2736150,653,TRANSFER,128440.4,1,100,High,Time of day; Amount previously received by account; Receiving account history
+2627962,455,CASH_OUT,2108589.59,1,100,High,Amount well above usual for this type; Time of day; Large amount
+2741872,675,CASH_OUT,10000000.0,1,100,High,Amount well above usual for this type; Time of day; Transaction type
+2727049,603,CASH_OUT,2319926.01,1,100,High,Amount well above usual for this type; Time of day; Transaction type
+2646611,509,TRANSFER,1994525.04,1,100,High,Time of day; Amount previously received by account; Receiving account history
+2668165,533,CASH_OUT,1303029.52,1,100,High,Amount well above usual for this type; Time of day; Transaction type
+2736117,650,TRANSFER,4480592.14,1,100,High,Time of day; Amount well above usual for this type; Amount previously received by account
+2765217,702,CASH_OUT,10000000.0,1,100,High,Amount well above usual for this type; Time of day; Large amount
+2770403,743,CASH_OUT,1258818.82,1,100,High,Amount well above usual for this type; Time of day; Transaction type
+2736009,646,CASH_OUT,10000000.0,1,100,High,Amount well above usual for this type; Time of day; Large amount
+2736153,653,CASH_OUT,940957.88,1,100,High,Time of day; Amount well above usual for this type; Transaction type
+2668054,531,TRANSFER,4791.06,1,100,High,Time of day; Amount well above usual for this type; Amount previously received by account
+2688771,558,CASH_OUT,1268931.21,1,100,High,Amount well above usual for this type; Time of day; Transaction type
+2765120,698,TRANSFER,10000000.0,1,100,High,Time of day; Amount well above usual for this type; Amount previously received by account
+2616002,413,TRANSFER,140333.35,1,100,High,Time of day; Amount previously received by account; Receiving account history

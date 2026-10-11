@@ -1,0 +1,12 @@
+,dtype,missing,missing_pct,unique_values
+step,int16,0,0.0,743
+type,category,0,0.0,5
+amount,float64,0,0.0,5316900
+nameOrig,string,0,0.0,6353307
+oldbalanceOrg,float64,0,0.0,1845844
+newbalanceOrig,float64,0,0.0,2682586
+nameDest,string,0,0.0,2722362
+oldbalanceDest,float64,0,0.0,3614697
+newbalanceDest,float64,0,0.0,3555499
+isFraud,int8,0,0.0,2
+isFlaggedFraud,int8,0,0.0,2

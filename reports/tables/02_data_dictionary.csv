@@ -1,0 +1,12 @@
+column,dtype,description,range,unit,role,available_at_scoring
+step,int16,Simulated hour (1 = first hour),1.00 to 743.00,hours,Input,Yes (timestamp)
+type,category,Transaction type,5 distinct values,-,Input,Yes
+amount,float64,Transaction amount,"0.00 to 92,445,516.64",simulated currency,Input,Yes
+nameOrig,string,Sender account,"6,353,307 distinct values",-,Identifier,"Yes, history only"
+oldbalanceOrg,float64,Sender balance before,"0.00 to 59,585,040.37",simulated currency,Input,Yes
+newbalanceOrig,float64,Sender balance after,"0.00 to 49,585,040.37",simulated currency,Input (derived),"Yes, old balance less amount"
+nameDest,string,Receiving account,"2,722,362 distinct values",-,Identifier,"Yes, history only"
+oldbalanceDest,float64,Receiving balance before,"0.00 to 356,015,889.35",simulated currency,Input,On-us only
+newbalanceDest,float64,Receiving balance after,"0.00 to 356,179,278.92",simulated currency,Input,No for interbank
+isFraud,int8,Fraud label,0.00 to 1.00,-,Target,No (known after investigation)
+isFlaggedFraud,int8,Simulator rule output,0.00 to 1.00,-,Benchmark only,Not an input

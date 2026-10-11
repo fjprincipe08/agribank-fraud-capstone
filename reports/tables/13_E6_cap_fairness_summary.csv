@@ -1,0 +1,5 @@
+group_by,demographic_parity_difference,fraud_rate_difference,equalized_odds_fpr_gap,equalized_odds_tpr_gap,max_fpr_ratio,min_fpr_ratio
+amount_band,0.0138,0.0188,0.0015,0.3512,1.5164,0.4783
+period,0.1767,0.1554,0.0542,0.6281,37.4035,0.127
+sender_balance_band,0.0301,0.0616,0.0003,0.2604,1.1062,0.9102
+type,0.0115,0.0176,0.0035,0.0134,2.9346,0.5139

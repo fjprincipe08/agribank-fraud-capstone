@@ -1,0 +1,31 @@
+,step,type,amount,isFraud,risk_score,priority,reasons
+2668208,534,TRANSFER,1390332.39,1,100,High,Receiving balance after transfer; Time of day; Amount large relative to receiving balance
+2615866,409,CASH_OUT,10000000.0,1,100,High,Amount well above usual for this type; Large amount; Time of day
+2628374,465,TRANSFER,44946.2,1,100,High,Receiving balance after transfer; Amount large relative to receiving balance; Receiving balance level
+2668166,533,TRANSFER,1303029.52,1,100,High,Receiving balance after transfer; Time of day; Amount large relative to receiving balance
+2732352,628,CASH_OUT,99165.12,1,100,High,Time of day; Night-time transaction; Amount large relative to receiving balance
+2618416,421,CASH_OUT,5455965.86,1,100,High,Amount well above usual for this type; Large amount; Amount large relative to receiving balance
+2737172,659,TRANSFER,1321984.45,1,100,High,Receiving balance after transfer; Large amount; Amount large relative to receiving balance
+2702631,580,TRANSFER,628697.26,1,100,High,Receiving balance after transfer; Time of day; Amount large relative to receiving balance
+2638279,491,TRANSFER,1122827.94,1,100,High,Receiving balance after transfer; Large amount; Amount large relative to receiving balance
+2425121,383,CASH_OUT,4731371.88,1,100,High,Amount well above usual for this type; Large amount; Amount large relative to receiving balance
+2736004,646,CASH_OUT,10000000.0,1,100,High,Amount well above usual for this type; Large amount; Amount large relative to receiving balance
+2627800,452,TRANSFER,1138384.29,1,100,High,Receiving balance after transfer; Large amount; Amount large relative to receiving balance
+2624557,444,CASH_OUT,3752520.6,1,100,High,Amount well above usual for this type; Large amount; Transaction type
+2768318,712,TRANSFER,16514.64,1,100,High,Receiving balance after transfer; Amount large relative to receiving balance; Receiving balance level
+2428478,388,CASH_OUT,5658123.36,1,100,High,Time of day; Amount well above usual for this type; Large amount
+2624120,440,CASH_OUT,1102791.66,1,100,High,Time of day; Amount well above usual for this type; Large amount
+2727094,606,TRANSFER,3973479.44,1,100,High,Receiving balance after transfer; Time of day; Amount large relative to receiving balance
+2756430,690,TRANSFER,66643.99,1,100,High,Receiving balance after transfer; Amount large relative to receiving balance; Receiving balance level
+2617648,420,TRANSFER,1464160.5,1,100,High,Receiving balance after transfer; Large amount; Amount large relative to receiving balance
+2735041,643,TRANSFER,40651.96,1,100,High,Receiving balance after transfer; Amount large relative to receiving balance; Receiving balance level
+2702741,582,TRANSFER,781988.85,1,100,High,Receiving balance after transfer; Time of day; Amount large relative to receiving balance
+2636260,481,CASH_OUT,832811.84,1,100,High,Time of day; Amount well above usual for this type; Amount large relative to receiving balance
+2688519,552,TRANSFER,221077.97,1,100,High,Receiving balance after transfer; Amount large relative to receiving balance; Night-time transaction
+2646674,511,TRANSFER,1367070.94,1,100,High,Receiving balance after transfer; Time of day; Amount large relative to receiving balance
+2504360,399,TRANSFER,205170.29,1,100,High,Receiving balance after transfer; Amount large relative to receiving balance; Receiving balance level
+2668270,535,TRANSFER,606501.57,1,100,High,Receiving balance after transfer; Amount large relative to receiving balance; Time of day
+2428514,391,TRANSFER,495773.64,1,100,High,Receiving balance after transfer; Amount large relative to receiving balance; Time of day
+2436427,393,TRANSFER,290198.92,1,100,High,Receiving balance after transfer; Amount large relative to receiving balance; Receiving balance level
+2702562,578,TRANSFER,736677.36,1,100,High,Receiving balance after transfer; Time of day; Amount large relative to receiving balance
+2702332,576,TRANSFER,451399.66,1,100,High,Receiving balance after transfer; Amount large relative to receiving balance; Night-time transaction
