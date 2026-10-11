@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Secrets and config
+.env
+*.key
+config.local.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and models (keep real data out of Git)
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.pkl
+*.joblib
+
+# OS / editor
+.DS_Store
+.vscode/
